@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Matthew Keelan Blog</title>
+    <link>http://mrkeelan.github.io/post/</link>
+    <description>Recent content in Posts on Matthew Keelan Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Jul 2016 13:05:56 -0500</lastBuildDate>
+    <atom:link href="http://mrkeelan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>First Post</title>
+      <link>http://mrkeelan.github.io/post/2016-08-02-first-post/</link>
+      <pubDate>Thu, 28 Jul 2016 13:05:56 -0500</pubDate>
+      
+      <guid>http://mrkeelan.github.io/post/2016-08-02-first-post/</guid>
+      <description>&lt;p&gt;This is a test post.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
