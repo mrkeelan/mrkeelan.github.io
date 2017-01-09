@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Matthew Keelan Blog</title>
-    <link>https://mrkeelan.github.io/</link>
-    <description>Recent content on Matthew Keelan Blog</description>
+    <title>Tech on Matthew Keelan Blog</title>
+    <link>https://mrkeelan.github.io/categories/tech/</link>
+    <description>Recent content in Tech on Matthew Keelan Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Dec 2016 14:29:51 -0600</lastBuildDate>
-    <atom:link href="https://mrkeelan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mrkeelan.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Logstash drop @timestamp but still use it in elasticsearch index name</title>
@@ -59,25 +59,6 @@ output {
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;We&amp;rsquo;ll use the &lt;a href=&#34;https://www.elastic.co/guide/en/logstash/current/event-dependent-configuration.html#metadata&#34;&gt;@metadata&lt;/a&gt; field. Fields in @metadata are not passed on to the output, so this is a perfect use for it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>https://mrkeelan.github.io/about/</link>
-      <pubDate>Tue, 02 Aug 2016 14:52:30 -0500</pubDate>
-      
-      <guid>https://mrkeelan.github.io/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://mrkeelan.github.io/post/2016-08-02-first-post/</link>
-      <pubDate>Thu, 28 Jul 2016 13:05:56 -0500</pubDate>
-      
-      <guid>https://mrkeelan.github.io/post/2016-08-02-first-post/</guid>
-      <description>&lt;p&gt;This is a test post. Testing testing 1 2 3.&lt;/p&gt;
 </description>
     </item>
     

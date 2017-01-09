@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>about &middot; Matthew Keelan</title>
+  <title>Logstash drop @timestamp but still use it in elasticsearch index name &middot; Matthew Keelan</title>
 
   
   <link rel="stylesheet" href="https://mrkeelan.github.io/css/poole.css">
@@ -71,10 +71,64 @@
 
 <div class="content container">
   <div class="post">
-    <h1 class="post-title">about</h1>
+    <h1 class="post-title">Logstash drop @timestamp but still use it in elasticsearch index name</h1>
+    <span class="post-date">Dec 31, 2016 &middot; 1 minute read
     
+    <br/>
+    <a class="label" href="https://mrkeelan.github.io/categories/tech">tech</a><a class="label" href="https://mrkeelan.github.io/categories/logstash">logstash</a>
+    </span>
+    <p>If you want to store data coming from logstash in an elasticsearch index with the date as a suffix, like logstash-2016.12.31, that&rsquo;s easily acheivable with this output:</p>
+
+<pre><code class="language-javascript">output {
+    elasticsearch {
+        hosts =&gt; [
+            'elastic01.example.com:9200',  
+            'elastic02.example.com:9200',  
+            'elastic03.example.com:9200'  
+        ]
+        index =&gt; &quot;logstash-%{+YYY.MM.dd}&quot;  
+    }
+}
+</code></pre>
+
+<p>Logstash will get the date from @timestamp, and format it as indicated in the index setting.</p>
+
+<p>This is a test
+a test</p>
+
+<p>But what if you don&rsquo;t want the @timestamp field indexed in Elasticsearch? For instance, what if you want to rename that field? Then you&rsquo;ll have to do some trickery.</p>
+
+<pre><code class="language-json">filter {
+    mutate {
+        add_field =&gt; {
+            &quot;[@metadata][indexDate]&quot; =&gt; &quot;%{+YYYY.MM.dd}&quot;
+        }
+        rename =&gt; {
+            &quot;@timestamp&quot; =&gt; &quot;receivedTimestamp&quot;
+        }
+    }
+}
+output {
+    elasticsearch {
+        hosts =&gt; [
+            'elastic01.example.com:9200',
+            'elastic02.example.com:9200',
+            'elastic03.example.com:9200'
+        ]
+        index =&gt; &quot;logstash-%{[@metadata][indexDate]}&quot;
+    }
+}
+</code></pre>
+
+<p>We&rsquo;ll use the <a href="https://www.elastic.co/guide/en/logstash/current/event-dependent-configuration.html#metadata">@metadata</a> field. Fields in @metadata are not passed on to the output, so this is a perfect use for it.</p>
+
   </div>
+  
 </div>
+
+
+
+
 
 </body>
 </html>
