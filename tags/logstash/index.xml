@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Logstash on Matthew Keelan</title>
-    <link>https://mrkeelan.github.io/tags/logstash/index.xml</link>
+    <link>http://www.matthewkeelan.com/tags/logstash/index.xml</link>
     <description>Recent content in Logstash on Matthew Keelan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Logstash drop @timestamp but still use it in elasticsearch index name</title>
-      <link>https://mrkeelan.github.io/2016/12/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</link>
+      <link>http://www.matthewkeelan.com/2016/12/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</link>
       <pubDate>Sat, 31 Dec 2016 14:29:51 -0600</pubDate>
       
-      <guid>https://mrkeelan.github.io/2016/12/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</guid>
+      <guid>http://www.matthewkeelan.com/2016/12/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</guid>
       <description>&lt;p&gt;If you want to store data coming from logstash in an elasticsearch index with the date as a suffix, like logstash-2016.12.31, that&amp;rsquo;s easily acheivable with this output:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;output {

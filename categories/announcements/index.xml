@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Announcements on Matthew Keelan</title>
-    <link>https://mrkeelan.github.io/categories/announcements/index.xml</link>
+    <link>http://www.matthewkeelan.com/categories/announcements/index.xml</link>
     <description>Recent content in Announcements on Matthew Keelan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     
     <item>
       <title>New Blog</title>
-      <link>https://mrkeelan.github.io/2006/01/new-blog/</link>
+      <link>http://www.matthewkeelan.com/2006/01/new-blog/</link>
       <pubDate>Sun, 08 Jan 2006 22:37:01 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2006/01/new-blog/</guid>
+      <guid>http://www.matthewkeelan.com/2006/01/new-blog/</guid>
       <description>&lt;p&gt;The start of my new blog.&lt;/p&gt;
 
 &lt;p&gt;I will start to write amazing things here very soon.&lt;/p&gt;

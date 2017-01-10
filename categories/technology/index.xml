@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technology on Matthew Keelan</title>
-    <link>https://mrkeelan.github.io/categories/technology/index.xml</link>
+    <link>http://www.matthewkeelan.com/categories/technology/index.xml</link>
     <description>Recent content in Technology on Matthew Keelan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Logstash drop @timestamp but still use it in elasticsearch index name</title>
-      <link>https://mrkeelan.github.io/2016/12/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</link>
+      <link>http://www.matthewkeelan.com/2016/12/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</link>
       <pubDate>Sat, 31 Dec 2016 14:29:51 -0600</pubDate>
       
-      <guid>https://mrkeelan.github.io/2016/12/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</guid>
+      <guid>http://www.matthewkeelan.com/2016/12/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</guid>
       <description>&lt;p&gt;If you want to store data coming from logstash in an elasticsearch index with the date as a suffix, like logstash-2016.12.31, that&amp;rsquo;s easily acheivable with this output:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;output {
@@ -63,10 +63,10 @@ output {
     
     <item>
       <title>Quickly Get the Hex Code for a color in Mountain Lion</title>
-      <link>https://mrkeelan.github.io/2012/11/quickly-get-the-hex-code-for-a-color-in-mountain-lion/</link>
+      <link>http://www.matthewkeelan.com/2012/11/quickly-get-the-hex-code-for-a-color-in-mountain-lion/</link>
       <pubDate>Fri, 02 Nov 2012 18:10:56 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2012/11/quickly-get-the-hex-code-for-a-color-in-mountain-lion/</guid>
+      <guid>http://www.matthewkeelan.com/2012/11/quickly-get-the-hex-code-for-a-color-in-mountain-lion/</guid>
       <description>&lt;p&gt;If you ever need to quickly get the hex color code of something, to add it to a CSS file perhaps, here’s a quick way to do it in OSX Mountain Lion.&lt;/p&gt;
 
 &lt;p&gt;Open &lt;strong&gt;DigitalColor Meter&lt;/strong&gt;, it’s under Utilities in the Applications menu. Change the view to hexadecimal, &lt;strong&gt;View &amp;gt; Display Values &amp;gt; as Hexadecimal&lt;/strong&gt;. Then hover over the color you want and press &lt;strong&gt;Shift + Command + C&lt;/strong&gt;. Now it’s in your clipboard and &lt;strong&gt;Command + V&lt;/strong&gt; will paste it.&lt;/p&gt;
@@ -75,10 +75,10 @@ output {
     
     <item>
       <title>Batch thumbnail creation with ImageMagick</title>
-      <link>https://mrkeelan.github.io/2009/04/batch-thumbnail-creation-with-imagemagick/</link>
+      <link>http://www.matthewkeelan.com/2009/04/batch-thumbnail-creation-with-imagemagick/</link>
       <pubDate>Thu, 09 Apr 2009 20:08:11 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2009/04/batch-thumbnail-creation-with-imagemagick/</guid>
+      <guid>http://www.matthewkeelan.com/2009/04/batch-thumbnail-creation-with-imagemagick/</guid>
       <description>&lt;p&gt;command to create thumbnails from all jpg files in a directory:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;find *.jpg -maxdepth 0 -print -exec convert &amp;quot;{}&amp;quot; -resize 120x160 &amp;quot;thumbnails/{}&amp;quot; \;
@@ -88,10 +88,10 @@ output {
     
     <item>
       <title>Goodbye, Yahoo Maps</title>
-      <link>https://mrkeelan.github.io/2006/10/goodbye-yahoo-maps/</link>
+      <link>http://www.matthewkeelan.com/2006/10/goodbye-yahoo-maps/</link>
       <pubDate>Mon, 16 Oct 2006 22:37:16 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2006/10/goodbye-yahoo-maps/</guid>
+      <guid>http://www.matthewkeelan.com/2006/10/goodbye-yahoo-maps/</guid>
       <description>&lt;p&gt;I have used Yahoo Maps for as long as I can remember. Without it I would have had trouble getting places. Today, annoyed that my search criteria has not been remember the last few times I&amp;#8217;ve searched for it, I decided to go edit my locations and add the new one. I then noticed that Yahoo has decided to limit the number of saved locations to 10, for no reason.&lt;/p&gt;
 
 &lt;p&gt;The fact that I didn&amp;#8217;t want to have to copy over the collection of saved locations I&amp;#8217;ve built up has kept me from switching away from Yahoo Maps, but now I will switch to Google Maps. I will no longer have to endure Yahoo&amp;#8217;s new obnoxious, slow Flash interface which it keeps forcing on me, and can now enjoy Google&amp;#8217;s new quick AJAX interface.&lt;/p&gt;
@@ -102,10 +102,10 @@ output {
     
     <item>
       <title>Linux&#43; Study Guide pdf version is Windows-Only</title>
-      <link>https://mrkeelan.github.io/2006/02/linux-plus-study-guide-pdf-windows-only/</link>
+      <link>http://www.matthewkeelan.com/2006/02/linux-plus-study-guide-pdf-windows-only/</link>
       <pubDate>Mon, 06 Feb 2006 12:58:40 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2006/02/linux-plus-study-guide-pdf-windows-only/</guid>
+      <guid>http://www.matthewkeelan.com/2006/02/linux-plus-study-guide-pdf-windows-only/</guid>
       <description>&lt;p&gt;I recently purchased a Linux+ Study Guide. The Linux+ Study Guide Third Edition by author Roderick W. Smith, published by Sybex.&lt;/p&gt;
 
 &lt;p&gt;So far the book is pretty good, i am almost finished with it. I haven&amp;#8217;t taken the exam yet, so i can&amp;#8217;t yet say how well it has prepared me. [I recently purchased a Linux+ Study Guide. The Linux+ Study Guide Third Edition by author Roderick W. Smith, published by Sybex.&lt;/p&gt;
@@ -128,10 +128,10 @@ output {
     
     <item>
       <title>Airlink&#43; AWLL3025 on Ubuntu Linux 5.04</title>
-      <link>https://mrkeelan.github.io/2006/01/airlink&#43;-awll3025-on-ubuntu-linux-5.04/</link>
+      <link>http://www.matthewkeelan.com/2006/01/airlink&#43;-awll3025-on-ubuntu-linux-5.04/</link>
       <pubDate>Thu, 19 Jan 2006 06:21:03 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2006/01/airlink&#43;-awll3025-on-ubuntu-linux-5.04/</guid>
+      <guid>http://www.matthewkeelan.com/2006/01/airlink&#43;-awll3025-on-ubuntu-linux-5.04/</guid>
       <description>&lt;p&gt;Note: I&amp;#8217;m writing this mostly from memory, will go back and check, and update this to make sure it&amp;#8217;s completely correct.&lt;/p&gt;
 
 &lt;p&gt;The &lt;a href=&#34;http://www.airlinkplus.com/wireless/awll3025.htm&#34; title=&#34;Airlink+ AWLL3025&#34;&gt;Airlink+ AWLL3025&lt;/a&gt; is a cheap 802.11g USB adapter.&lt;/p&gt;

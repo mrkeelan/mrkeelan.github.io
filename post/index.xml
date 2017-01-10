@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Matthew Keelan</title>
-    <link>https://mrkeelan.github.io/post/index.xml</link>
+    <link>http://www.matthewkeelan.com/post/index.xml</link>
     <description>Recent content in Posts on Matthew Keelan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Logstash drop @timestamp but still use it in elasticsearch index name</title>
-      <link>https://mrkeelan.github.io/2016/12/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</link>
+      <link>http://www.matthewkeelan.com/2016/12/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</link>
       <pubDate>Sat, 31 Dec 2016 14:29:51 -0600</pubDate>
       
-      <guid>https://mrkeelan.github.io/2016/12/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</guid>
+      <guid>http://www.matthewkeelan.com/2016/12/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</guid>
       <description>&lt;p&gt;If you want to store data coming from logstash in an elasticsearch index with the date as a suffix, like logstash-2016.12.31, that&amp;rsquo;s easily acheivable with this output:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;output {
@@ -64,10 +64,10 @@ output {
     
     <item>
       <title>Earthless / Destruction Unit / Yakuza / Running</title>
-      <link>https://mrkeelan.github.io/2014/01/earthless-destruction-unit-yakuza-running/</link>
+      <link>http://www.matthewkeelan.com/2014/01/earthless-destruction-unit-yakuza-running/</link>
       <pubDate>Sun, 26 Jan 2014 05:00:49 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2014/01/earthless-destruction-unit-yakuza-running/</guid>
+      <guid>http://www.matthewkeelan.com/2014/01/earthless-destruction-unit-yakuza-running/</guid>
       <description>&lt;p&gt;This show at the Empty Bottle was phenomenal.   All four of these bands put on great shows, and the Bottle is such a great venue.  It had some weird sponsorship thing with Red Bull, so you had to RSVP to get in for $5, but it was first-come first-serve, no guaranteed ticket.  So we got there a little before 9, and the first band didn&amp;#8217;t start until 9:45.&lt;/p&gt;
 
 &lt;p&gt;Running was first, and I&amp;#8217;m glad I got there to see them.  They had a kind of psych-punk-rock vibe, with echo-y difficult to decipher vocals. Very energetic. They&amp;#8217;re from Chicago, so I&amp;#8217;ll have to make sure to check them out again.&lt;/p&gt;
@@ -85,10 +85,10 @@ output {
     
     <item>
       <title>Tim Hecker / Oneohtrix Point Never</title>
-      <link>https://mrkeelan.github.io/2014/01/tim-hecker-oneohtrix-point-never/</link>
+      <link>http://www.matthewkeelan.com/2014/01/tim-hecker-oneohtrix-point-never/</link>
       <pubDate>Fri, 17 Jan 2014 08:00:14 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2014/01/tim-hecker-oneohtrix-point-never/</guid>
+      <guid>http://www.matthewkeelan.com/2014/01/tim-hecker-oneohtrix-point-never/</guid>
       <description>&lt;p&gt;I got to see this show at Lincoln Hall, January 16th, 2014 as part of the Tomorrow Never Knows festival. I was unsure what to expect from this show as both these bands albums are kind of ambient electronic music. I&amp;#8217;ve liked both of these albums a lot. I often listen to them through headphones at work. It&amp;#8217;s a nice backdrop for getting work done, but there&amp;#8217;s also interesting stuff going on in there if you want to listen intently.&lt;/p&gt;
 
 &lt;p&gt;Tim Hecker was first. He came out to no real fanfare, and went to work on a dark stage, obscurred by a smoke machine. I&amp;#8217;m not sure of what all the equipment he had on stage was. It looked like he was constantly tweaking things. There was a lot going on sonically. Visually, it was difficult to see what was going on. The crowd was standing almost perfectly still, just listening, and drinking their beer. I think some visual component would have added to the show. Personally I would like to see what he was doing up there.&lt;/p&gt;
@@ -101,10 +101,10 @@ output {
     
     <item>
       <title>Quickly Get the Hex Code for a color in Mountain Lion</title>
-      <link>https://mrkeelan.github.io/2012/11/quickly-get-the-hex-code-for-a-color-in-mountain-lion/</link>
+      <link>http://www.matthewkeelan.com/2012/11/quickly-get-the-hex-code-for-a-color-in-mountain-lion/</link>
       <pubDate>Fri, 02 Nov 2012 18:10:56 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2012/11/quickly-get-the-hex-code-for-a-color-in-mountain-lion/</guid>
+      <guid>http://www.matthewkeelan.com/2012/11/quickly-get-the-hex-code-for-a-color-in-mountain-lion/</guid>
       <description>&lt;p&gt;If you ever need to quickly get the hex color code of something, to add it to a CSS file perhaps, here’s a quick way to do it in OSX Mountain Lion.&lt;/p&gt;
 
 &lt;p&gt;Open &lt;strong&gt;DigitalColor Meter&lt;/strong&gt;, it’s under Utilities in the Applications menu. Change the view to hexadecimal, &lt;strong&gt;View &amp;gt; Display Values &amp;gt; as Hexadecimal&lt;/strong&gt;. Then hover over the color you want and press &lt;strong&gt;Shift + Command + C&lt;/strong&gt;. Now it’s in your clipboard and &lt;strong&gt;Command + V&lt;/strong&gt; will paste it.&lt;/p&gt;
@@ -113,10 +113,10 @@ output {
     
     <item>
       <title>Delete a Large Number of Files with Find</title>
-      <link>https://mrkeelan.github.io/2009/11/delete-a-large-number-of-files-with-find/</link>
+      <link>http://www.matthewkeelan.com/2009/11/delete-a-large-number-of-files-with-find/</link>
       <pubDate>Fri, 06 Nov 2009 00:19:57 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2009/11/delete-a-large-number-of-files-with-find/</guid>
+      <guid>http://www.matthewkeelan.com/2009/11/delete-a-large-number-of-files-with-find/</guid>
       <description>&lt;p&gt;If you ever come across a directory full of so many files, you can&amp;rsquo;t run an ls on it, here is how to delete a bunch of them, using find.&lt;/p&gt;
 
 &lt;p&gt;I recently had to delete all the gzipped files in /var/log because something was misconfigured and things went crazy.&lt;/p&gt;
@@ -128,10 +128,10 @@ output {
     
     <item>
       <title>Pitchfork Saturday Preview</title>
-      <link>https://mrkeelan.github.io/2009/07/pitchfork-saturday-preview/</link>
+      <link>http://www.matthewkeelan.com/2009/07/pitchfork-saturday-preview/</link>
       <pubDate>Fri, 17 Jul 2009 11:47:06 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2009/07/pitchfork-saturday-preview/</guid>
+      <guid>http://www.matthewkeelan.com/2009/07/pitchfork-saturday-preview/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Cymbals Eat Guitars&lt;/strong&gt; 1:00 (A)&lt;/p&gt;
 
 &lt;p&gt;I really like the album &amp;#8220;Why There Are Mountains&amp;#8221;, especially &amp;#8220;Share&amp;#8221;. Looking forward to starting out Saturday watching this band.&lt;/p&gt;
@@ -166,10 +166,10 @@ output {
     
     <item>
       <title>Pitchfork Friday Preview</title>
-      <link>https://mrkeelan.github.io/2009/07/pitchfork-friday-preview/</link>
+      <link>http://www.matthewkeelan.com/2009/07/pitchfork-friday-preview/</link>
       <pubDate>Sat, 11 Jul 2009 18:46:13 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2009/07/pitchfork-friday-preview/</guid>
+      <guid>http://www.matthewkeelan.com/2009/07/pitchfork-friday-preview/</guid>
       <description>
 
 &lt;p&gt;Pitchfork Music Festival is coming up next week. A lot of great bands are playing should be cool to see.&lt;/p&gt;
@@ -192,10 +192,10 @@ output {
     
     <item>
       <title>Batch thumbnail creation with ImageMagick</title>
-      <link>https://mrkeelan.github.io/2009/04/batch-thumbnail-creation-with-imagemagick/</link>
+      <link>http://www.matthewkeelan.com/2009/04/batch-thumbnail-creation-with-imagemagick/</link>
       <pubDate>Thu, 09 Apr 2009 20:08:11 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2009/04/batch-thumbnail-creation-with-imagemagick/</guid>
+      <guid>http://www.matthewkeelan.com/2009/04/batch-thumbnail-creation-with-imagemagick/</guid>
       <description>&lt;p&gt;command to create thumbnails from all jpg files in a directory:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;find *.jpg -maxdepth 0 -print -exec convert &amp;quot;{}&amp;quot; -resize 120x160 &amp;quot;thumbnails/{}&amp;quot; \;
@@ -205,10 +205,10 @@ output {
     
     <item>
       <title>How To Run Multiple IIS WebSites on Windows XP</title>
-      <link>https://mrkeelan.github.io/2009/01/how-to-run-multiple-iis-websites-on-windows-xp/</link>
+      <link>http://www.matthewkeelan.com/2009/01/how-to-run-multiple-iis-websites-on-windows-xp/</link>
       <pubDate>Wed, 07 Jan 2009 23:20:23 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2009/01/how-to-run-multiple-iis-websites-on-windows-xp/</guid>
+      <guid>http://www.matthewkeelan.com/2009/01/how-to-run-multiple-iis-websites-on-windows-xp/</guid>
       <description>&lt;p&gt;IIS in Windows XP will not let you create more than one web site.&lt;/p&gt;
 
 &lt;p&gt;To get around that you can use a commandline tool to copy the default site.&lt;/p&gt;
@@ -231,10 +231,10 @@ output {
     
     <item>
       <title>Find/Replace across multiple files with Vim</title>
-      <link>https://mrkeelan.github.io/2008/12/findreplace-across-multiple-files-with-vim/</link>
+      <link>http://www.matthewkeelan.com/2008/12/findreplace-across-multiple-files-with-vim/</link>
       <pubDate>Fri, 12 Dec 2008 17:34:10 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2008/12/findreplace-across-multiple-files-with-vim/</guid>
+      <guid>http://www.matthewkeelan.com/2008/12/findreplace-across-multiple-files-with-vim/</guid>
       <description>&lt;p&gt;Here is a quick way to find an replace one string with another across multiple files using vim.&lt;/p&gt;
 
 &lt;p&gt;Open all the files:&lt;/p&gt;
@@ -253,10 +253,10 @@ output {
     
     <item>
       <title>Gentoo: equery and USE flags</title>
-      <link>https://mrkeelan.github.io/2008/10/gentoo-equery-and-use-flags/</link>
+      <link>http://www.matthewkeelan.com/2008/10/gentoo-equery-and-use-flags/</link>
       <pubDate>Thu, 09 Oct 2008 17:47:37 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2008/10/gentoo-equery-and-use-flags/</guid>
+      <guid>http://www.matthewkeelan.com/2008/10/gentoo-equery-and-use-flags/</guid>
       <description>&lt;p&gt;Running:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;equery depends jdk`
@@ -284,20 +284,20 @@ Calculating dependencies... done!
     
     <item>
       <title>New Job</title>
-      <link>https://mrkeelan.github.io/2008/03/new-job/</link>
+      <link>http://www.matthewkeelan.com/2008/03/new-job/</link>
       <pubDate>Mon, 03 Mar 2008 00:44:44 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2008/03/new-job/</guid>
+      <guid>http://www.matthewkeelan.com/2008/03/new-job/</guid>
       <description>&lt;p&gt;I recently got a new job. I started working at Real Network Solutions, realnets.com, in Park Ridge, IL. It&amp;rsquo;s going very well so far, and the commute is much nicer than driving out to Libertyville.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Vote</title>
-      <link>https://mrkeelan.github.io/2008/02/vote/</link>
+      <link>http://www.matthewkeelan.com/2008/02/vote/</link>
       <pubDate>Tue, 05 Feb 2008 16:55:02 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2008/02/vote/</guid>
+      <guid>http://www.matthewkeelan.com/2008/02/vote/</guid>
       <description>&lt;p&gt;To everyone in Illinois, today is the day to vote. (I voted 2 weeks ago, in early voting)&lt;/p&gt;
 
 &lt;p&gt;Have a good day.&lt;/p&gt;
@@ -306,20 +306,20 @@ Calculating dependencies... done!
     
     <item>
       <title>Rose Bowl Trip</title>
-      <link>https://mrkeelan.github.io/2008/01/rose-bowl-trip/</link>
+      <link>http://www.matthewkeelan.com/2008/01/rose-bowl-trip/</link>
       <pubDate>Mon, 07 Jan 2008 01:50:41 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2008/01/rose-bowl-trip/</guid>
+      <guid>http://www.matthewkeelan.com/2008/01/rose-bowl-trip/</guid>
       <description>&lt;p&gt;I recently got the chance to go to Pasadena, CA to watch the Fighting Illini play in the Rose Bowl. The trip was a lot of fun, despite the outcome of the game. I will be posting some pictures shortly.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Chief</title>
-      <link>https://mrkeelan.github.io/2007/02/chief/</link>
+      <link>http://www.matthewkeelan.com/2007/02/chief/</link>
       <pubDate>Thu, 22 Feb 2007 05:15:58 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2007/02/chief/</guid>
+      <guid>http://www.matthewkeelan.com/2007/02/chief/</guid>
       <description>&lt;p&gt;The Last performance of Chief Illiniwek was tonight. It&amp;#8217;s a very sad day. An 81 year tradition has been abandoned because of the mis-guided self-righteousness of a few. It&amp;#8217;s sad to see such a great and honorable tradition cast aside.&lt;/p&gt;
 
 &lt;p&gt;I am convinced that those who speak out against it, have either never seen it, or had their minds made up against it before they did. I watched it tonight at Joes Bar in Chicago with many other Illinois fans. It perplexes me how anyone could see the emotion, spirit, and respect in Assembly Hall tonight, and every time the Chief performed there and at Memorial Stadium, and describe this tradition as &amp;#8220;hostile and abusive&amp;#8221;. No one will be crying in the stands when the Washington Redskins are re-named. This tradition was truly different, and meant much more to so many people.&lt;/p&gt;

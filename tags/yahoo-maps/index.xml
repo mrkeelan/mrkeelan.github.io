@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yahoo Maps on Matthew Keelan</title>
-    <link>https://mrkeelan.github.io/tags/yahoo-maps/index.xml</link>
+    <link>http://www.matthewkeelan.com/tags/yahoo-maps/index.xml</link>
     <description>Recent content in Yahoo Maps on Matthew Keelan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Goodbye, Yahoo Maps</title>
-      <link>https://mrkeelan.github.io/2006/10/goodbye-yahoo-maps/</link>
+      <link>http://www.matthewkeelan.com/2006/10/goodbye-yahoo-maps/</link>
       <pubDate>Mon, 16 Oct 2006 22:37:16 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/2006/10/goodbye-yahoo-maps/</guid>
+      <guid>http://www.matthewkeelan.com/2006/10/goodbye-yahoo-maps/</guid>
       <description>&lt;p&gt;I have used Yahoo Maps for as long as I can remember. Without it I would have had trouble getting places. Today, annoyed that my search criteria has not been remember the last few times I&amp;#8217;ve searched for it, I decided to go edit my locations and add the new one. I then noticed that Yahoo has decided to limit the number of saved locations to 10, for no reason.&lt;/p&gt;
 
 &lt;p&gt;The fact that I didn&amp;#8217;t want to have to copy over the collection of saved locations I&amp;#8217;ve built up has kept me from switching away from Yahoo Maps, but now I will switch to Google Maps. I will no longer have to endure Yahoo&amp;#8217;s new obnoxious, slow Flash interface which it keeps forcing on me, and can now enjoy Google&amp;#8217;s new quick AJAX interface.&lt;/p&gt;
