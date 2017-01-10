@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Matthew Keelan Blog</title>
-    <link>https://mrkeelan.github.io/</link>
-    <description>Recent content on Matthew Keelan Blog</description>
+    <title>Matthew Keelan on Matthew Keelan</title>
+    <link>https://mrkeelan.github.io/index.xml</link>
+    <description>Recent content in Matthew Keelan on Matthew Keelan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Dec 2016 14:29:51 -0600</lastBuildDate>
-    <atom:link href="https://mrkeelan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Logstash drop @timestamp but still use it in elasticsearch index name</title>
-      <link>https://mrkeelan.github.io/post/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</link>
+      <link>https://mrkeelan.github.io/2016/12/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</link>
       <pubDate>Sat, 31 Dec 2016 14:29:51 -0600</pubDate>
       
-      <guid>https://mrkeelan.github.io/post/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</guid>
+      <guid>https://mrkeelan.github.io/2016/12/logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name/</guid>
       <description>&lt;p&gt;If you want to store data coming from logstash in an elasticsearch index with the date as a suffix, like logstash-2016.12.31, that&amp;rsquo;s easily acheivable with this output:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;output {
@@ -31,7 +31,7 @@
 
 &lt;p&gt;Logstash will get the date from @timestamp, and format it as indicated in the index setting.&lt;/p&gt;
 
-&lt;p&gt;This is a test
+&lt;p&gt;This is a test&lt;br /&gt;
 a test&lt;/p&gt;
 
 &lt;p&gt;But what if you don&amp;rsquo;t want the @timestamp field indexed in Elasticsearch? For instance, what if you want to rename that field? Then you&amp;rsquo;ll have to do some trickery.&lt;/p&gt;
@@ -63,21 +63,14 @@ output {
     </item>
     
     <item>
-      <title>about</title>
-      <link>https://mrkeelan.github.io/about/</link>
-      <pubDate>Tue, 02 Aug 2016 14:52:30 -0500</pubDate>
+      <title>Quickly Get the Hex Code for a color in Mountain Lion</title>
+      <link>https://mrkeelan.github.io/2012/11/quickly-get-the-hex-code-for-a-color-in-mountain-lion/</link>
+      <pubDate>Fri, 02 Nov 2012 18:10:56 +0000</pubDate>
       
-      <guid>https://mrkeelan.github.io/about/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://mrkeelan.github.io/post/2016-08-02-first-post/</link>
-      <pubDate>Thu, 28 Jul 2016 13:05:56 -0500</pubDate>
-      
-      <guid>https://mrkeelan.github.io/post/2016-08-02-first-post/</guid>
-      <description>&lt;p&gt;This is a test post. Testing testing 1 2 3.&lt;/p&gt;
+      <guid>https://mrkeelan.github.io/2012/11/quickly-get-the-hex-code-for-a-color-in-mountain-lion/</guid>
+      <description>&lt;p&gt;If you ever need to quickly get the hex color code of something, to add it to a CSS file perhaps, here’s a quick way to do it in OSX Mountain Lion.&lt;/p&gt;
+
+&lt;p&gt;Open &lt;strong&gt;DigitalColor Meter&lt;/strong&gt;, it’s under Utilities in the Applications menu. Change the view to hexadecimal, &lt;strong&gt;View &amp;gt; Display Values &amp;gt; as Hexadecimal&lt;/strong&gt;. Then hover over the color you want and press &lt;strong&gt;Shift + Command + C&lt;/strong&gt;. Now it’s in your clipboard and &lt;strong&gt;Command + V&lt;/strong&gt; will paste it.&lt;/p&gt;
 </description>
     </item>
     

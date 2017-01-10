@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Matthew Keelan</title>
-    <link>https://mrkeelan.github.io/post/index.xml</link>
-    <description>Recent content in Posts on Matthew Keelan</description>
+    <title>Elasticsearch on Matthew Keelan</title>
+    <link>https://mrkeelan.github.io/tags/elasticsearch/index.xml</link>
+    <description>Recent content in Elasticsearch on Matthew Keelan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Dec 2016 14:29:51 -0600</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/elasticsearch/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Logstash drop @timestamp but still use it in elasticsearch index name</title>
@@ -59,18 +58,6 @@ output {
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;We&amp;rsquo;ll use the &lt;a href=&#34;https://www.elastic.co/guide/en/logstash/current/event-dependent-configuration.html#metadata&#34;&gt;@metadata&lt;/a&gt; field. Fields in @metadata are not passed on to the output, so this is a perfect use for it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Quickly Get the Hex Code for a color in Mountain Lion</title>
-      <link>https://mrkeelan.github.io/2012/11/quickly-get-the-hex-code-for-a-color-in-mountain-lion/</link>
-      <pubDate>Fri, 02 Nov 2012 18:10:56 +0000</pubDate>
-      
-      <guid>https://mrkeelan.github.io/2012/11/quickly-get-the-hex-code-for-a-color-in-mountain-lion/</guid>
-      <description>&lt;p&gt;If you ever need to quickly get the hex color code of something, to add it to a CSS file perhaps, here’s a quick way to do it in OSX Mountain Lion.&lt;/p&gt;
-
-&lt;p&gt;Open &lt;strong&gt;DigitalColor Meter&lt;/strong&gt;, it’s under Utilities in the Applications menu. Change the view to hexadecimal, &lt;strong&gt;View &amp;gt; Display Values &amp;gt; as Hexadecimal&lt;/strong&gt;. Then hover over the color you want and press &lt;strong&gt;Shift + Command + C&lt;/strong&gt;. Now it’s in your clipboard and &lt;strong&gt;Command + V&lt;/strong&gt; will paste it.&lt;/p&gt;
 </description>
     </item>
     
