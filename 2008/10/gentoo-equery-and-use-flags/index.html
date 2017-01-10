@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.18" />
+  <meta name="author" content="Matthew Keelan">
+  <meta name="description" content="Developer / Data Architect">
+
+  <link rel="stylesheet" href="https://mrkeelan.github.io/css/highlight.min.css">
+  <link rel="stylesheet" href="https://mrkeelan.github.io/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://mrkeelan.github.io/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://mrkeelan.github.io/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="https://mrkeelan.github.io/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://mrkeelan.github.io/index.xml" type="application/rss+xml" title="Matthew Keelan">
+  <link rel="feed" href="https://mrkeelan.github.io/index.xml" type="application/rss+xml" title="Matthew Keelan">
+
+  <link rel="icon" type="image/ico" href="https://mrkeelan.github.io/img/laptop.ico">
+  <link rel="apple-touch-icon" type="image/png" href="https://mrkeelan.github.io/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://mrkeelan.github.io/2008/10/gentoo-equery-and-use-flags/">
+
+  
+
+  <title>Gentoo: equery and USE flags | Matthew Keelan</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://mrkeelan.github.io/">Matthew Keelan</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="https://mrkeelan.github.io/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="https://mrkeelan.github.io/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+    
+
+    <h1 itemprop="name">Gentoo: equery and USE flags</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2008-10-09 17:47:37 &#43;0000 UTC" itemprop="datePublished">
+      Thu, Oct 9, 2008
+    </time>
+  </span>
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmrkeelan.github.io%2f2008%2f10%2fgentoo-equery-and-use-flags%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Gentoo%3a%20equery%20and%20USE%20flags&amp;url=https%3a%2f%2fmrkeelan.github.io%2f2008%2f10%2fgentoo-equery-and-use-flags%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmrkeelan.github.io%2f2008%2f10%2fgentoo-equery-and-use-flags%2f&amp;title=Gentoo%3a%20equery%20and%20USE%20flags"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmrkeelan.github.io%2f2008%2f10%2fgentoo-equery-and-use-flags%2f&amp;title=Gentoo%3a%20equery%20and%20USE%20flags"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Gentoo%3a%20equery%20and%20USE%20flags&amp;body=https%3a%2f%2fmrkeelan.github.io%2f2008%2f10%2fgentoo-equery-and-use-flags%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p>Running:</p>
+
+<pre><code class="language-bash">equery depends jdk`
+</code></pre>
+
+<p>Returns:</p>
+
+<pre><code>dev-lang/swig-1.3.31 (java? virtual/jdk)
+media-libs/pdflib-7.0.2_p8 (java? &gt;=virtual/jdk-1.4)
+</code></pre>
+
+<p>However, &ldquo;-java&rdquo; is set for pdflib:</p>
+
+<pre><code class="language-bash">emerge -pv pdflib
+</code></pre>
+
+<pre><code>These are the packages that would be merged, in order:
+Calculating dependencies... done!
+[ebuild R ] media-libs/pdflib-7.0.2_p8 USE=&quot;perl python -cxx -doc -java -tcl&quot; 0 kB
+</code></pre>
+
+<p>&ldquo;java?&rdquo; appears to mean that it depends on it IF the java USE flag is set. I couldn&#8217;t find this documented anywhere, so I&#8217;m documenting it here.</p>
+
+    </div>
+
+  </article>
+
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://mrkeelan.github.io/2008/03/new-job/"><span
+      aria-hidden="true">&larr;</span> New Job</a></li>
+    
+
+    
+    <li class="next"><a href="https://mrkeelan.github.io/2008/12/findreplace-across-multiple-files-with-vim/">Find/Replace across multiple files with Vim <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
+
+  
+<section id="comments">
+  <div id="disqus_thread">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'matthewkeelan';
+    var disqus_identifier = 'https:\/\/mrkeelan.github.io\/2008\/10\/gentoo-equery-and-use-flags\/';
+    var disqus_title = 'Gentoo: equery and USE flags';
+    var disqus_url = 'https:\/\/mrkeelan.github.io\/2008\/10\/gentoo-equery-and-use-flags\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</section>
+
+
+
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="https://mrkeelan.github.io/js/jquery-1.12.3.min.js"></script>
+    <script src="https://mrkeelan.github.io/js/bootstrap.min.js"></script>
+    <script src="https://mrkeelan.github.io/js/isotope.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="https://mrkeelan.github.io/js/hugo-academic.js"></script>
+    
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-90018551-1', 'auto');
+        ga('send', 'pageview');
+
+         
+        var links = document.querySelectorAll('a');
+        Array.prototype.map.call(links, function(item) {
+            if (item.host != document.location.host) {
+                item.addEventListener('click', function() {
+                    var action = item.getAttribute('data-action') || 'follow';
+                    ga('send', 'event', 'outbound', action, item.href);
+                });
+            }
+        });
+    </script>
+    
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+  </body>
+</html>
+

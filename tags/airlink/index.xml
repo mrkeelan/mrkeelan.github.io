@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Airlink on Matthew Keelan</title>
+    <link>https://mrkeelan.github.io/tags/airlink/index.xml</link>
+    <description>Recent content in Airlink on Matthew Keelan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/tags/airlink/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Airlink&#43; AWLL3025 on Ubuntu Linux 5.04</title>
+      <link>https://mrkeelan.github.io/2006/01/airlink&#43;-awll3025-on-ubuntu-linux-5.04/</link>
+      <pubDate>Thu, 19 Jan 2006 06:21:03 +0000</pubDate>
+      
+      <guid>https://mrkeelan.github.io/2006/01/airlink&#43;-awll3025-on-ubuntu-linux-5.04/</guid>
+      <description>&lt;p&gt;Note: I&amp;#8217;m writing this mostly from memory, will go back and check, and update this to make sure it&amp;#8217;s completely correct.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.airlinkplus.com/wireless/awll3025.htm&#34; title=&#34;Airlink+ AWLL3025&#34;&gt;Airlink+ AWLL3025&lt;/a&gt; is a cheap 802.11g USB adapter.&lt;/p&gt;
+
+&lt;p&gt;Open Source Linux drivers for this adapter, however they aren&amp;#8217;t usually included with any distro that I have seen, so you&amp;#8217;ll need to compile them from source.&lt;/p&gt;
+
+&lt;p&gt;It seems the source files are not hosted on sourceforge anymore.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://zd1211.ath.cx/&#34; title=&#34;http://zd1211.ath.cx/&#34;&gt;http://zd1211.ath.cx/&lt;/a&gt; is the homepage for the zd1211 driver project.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://zd1211.ath.cx/download&#34; title=&#34;http://zd1211.ath.cx/&#34;&gt;Here&lt;/a&gt; is a direct link to the files.&lt;/p&gt;
+
+&lt;p&gt;I got zd1211-driver-r38.tgz because i read that it worked with the kernel.&lt;/p&gt;
+
+&lt;p&gt;I like to save files for compiling into my home directory, under a sub directory src.&lt;/p&gt;
+
+&lt;p&gt;Go to whereever you saved it.&lt;/p&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  cd /home/matt/src/ &lt;br /&gt; tar &amp;#8211;gzip -xvf zd1211-driver-r38.tgz &lt;br /&gt; cd zd1211-driver-r38&lt;br /&gt; vi Makefile
+&lt;/div&gt;
+
+&lt;p&gt;edit the variables to match your linux source directory.&lt;/p&gt;
+
+&lt;p&gt;Get needed software from the Ubuntu Repository:&lt;/p&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  sudo apt-get install build-essential&lt;br /&gt; sudo apt-get install linux-headers&lt;br /&gt; sudo apt-get install linux-source-2.6.10-5-i386
+&lt;/div&gt;
+
+&lt;p&gt;Unpack the linux kernel source:&lt;/p&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  cd /usr/src&lt;br /&gt; sudo tar &amp;#8211;bzip2 -xvf linux-source-2.6.10-5-i386.gz
+&lt;/div&gt;
+
+&lt;p&gt;Create some necessary symbolic links:&lt;/p&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  ln -s /usr/src/linux-source-2.6.10-5-i386 /usr/src/linux&lt;br /&gt; ln -s /usr/src/linux/ /lib/modules/2.6.10-5-i386/build
+&lt;/div&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  cd /home/matt/src/zd1211-driver-r38&lt;br /&gt; make&lt;br /&gt; make install
+&lt;/div&gt;
+
+&lt;p&gt;now edit a few files&lt;/p&gt;
+
+&lt;p&gt;edit /etc/modprobe.d/aliases&lt;/p&gt;
+
+&lt;p&gt;add the line:&lt;/p&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  alias wlan0 zd1211
+&lt;/div&gt;
+
+&lt;p&gt;edit /etc/network/interfaces&lt;/p&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  iface wlan0 inet dhcp
+&lt;/div&gt;
+
+&lt;p&gt;Load the module:&lt;/p&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  modprobe -i zd1211&lt;br /&gt; lsmod | grep zd1211
+&lt;/div&gt;
+
+&lt;p&gt;You should see the module loaded.&lt;/p&gt;
+
+&lt;p&gt;At this point in connected to my neighbors &amp;#8216;linksys&amp;#8217; open network.&lt;/p&gt;
+
+&lt;p&gt;Tomorrow i will fix it to connect to my WEP protected network.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

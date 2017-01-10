@@ -73,5 +73,140 @@ output {
 </description>
     </item>
     
+    <item>
+      <title>Batch thumbnail creation with ImageMagick</title>
+      <link>https://mrkeelan.github.io/2009/04/batch-thumbnail-creation-with-imagemagick/</link>
+      <pubDate>Thu, 09 Apr 2009 20:08:11 +0000</pubDate>
+      
+      <guid>https://mrkeelan.github.io/2009/04/batch-thumbnail-creation-with-imagemagick/</guid>
+      <description>&lt;p&gt;command to create thumbnails from all jpg files in a directory:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;find *.jpg -maxdepth 0 -print -exec convert &amp;quot;{}&amp;quot; -resize 120x160 &amp;quot;thumbnails/{}&amp;quot; \;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Goodbye, Yahoo Maps</title>
+      <link>https://mrkeelan.github.io/2006/10/goodbye-yahoo-maps/</link>
+      <pubDate>Mon, 16 Oct 2006 22:37:16 +0000</pubDate>
+      
+      <guid>https://mrkeelan.github.io/2006/10/goodbye-yahoo-maps/</guid>
+      <description>&lt;p&gt;I have used Yahoo Maps for as long as I can remember. Without it I would have had trouble getting places. Today, annoyed that my search criteria has not been remember the last few times I&amp;#8217;ve searched for it, I decided to go edit my locations and add the new one. I then noticed that Yahoo has decided to limit the number of saved locations to 10, for no reason.&lt;/p&gt;
+
+&lt;p&gt;The fact that I didn&amp;#8217;t want to have to copy over the collection of saved locations I&amp;#8217;ve built up has kept me from switching away from Yahoo Maps, but now I will switch to Google Maps. I will no longer have to endure Yahoo&amp;#8217;s new obnoxious, slow Flash interface which it keeps forcing on me, and can now enjoy Google&amp;#8217;s new quick AJAX interface.&lt;/p&gt;
+
+&lt;p&gt;Thanks Yahoo, Good Bye.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Linux&#43; Study Guide pdf version is Windows-Only</title>
+      <link>https://mrkeelan.github.io/2006/02/linux-plus-study-guide-pdf-windows-only/</link>
+      <pubDate>Mon, 06 Feb 2006 12:58:40 +0000</pubDate>
+      
+      <guid>https://mrkeelan.github.io/2006/02/linux-plus-study-guide-pdf-windows-only/</guid>
+      <description>&lt;p&gt;I recently purchased a Linux+ Study Guide. The Linux+ Study Guide Third Edition by author Roderick W. Smith, published by Sybex.&lt;/p&gt;
+
+&lt;p&gt;So far the book is pretty good, i am almost finished with it. I haven&amp;#8217;t taken the exam yet, so i can&amp;#8217;t yet say how well it has prepared me. [I recently purchased a Linux+ Study Guide. The Linux+ Study Guide Third Edition by author Roderick W. Smith, published by Sybex.&lt;/p&gt;
+
+&lt;p&gt;So far the book is pretty good, i am almost finished with it. I haven&amp;#8217;t taken the exam yet, so i can&amp;#8217;t yet say how well it has prepared me.]&lt;a href=&#34;http://www.amazon.com/exec/obidos/ASIN/078214389X/matthewkeelan-20&#34;&gt;1&lt;/a&gt; However, I cannot recommend buying this book, or any book published by Sybex, if you like to read the pdf version. This book came with a cd that includes a pdf edition of the book. This pdf, however is useless on linux. Another lousy DRM scheme that hurts paying customers who want to read the pdf file for which they paid.&lt;/p&gt;
+
+&lt;p&gt;The Support FAQ on their website indicates that they have been &lt;a href=&#34;http://wiley.custhelp.com/cgi-bin/wiley.cfg/php/enduser/std_adp.php?p_faqid=2862&#34;&gt;&amp;#8220;working to correct this&amp;#8221;&lt;/a&gt; for some time now. I contacted support, and they appologized, but could not provide me with a usable version of the pdf file.&lt;/p&gt;
+
+&lt;p&gt;The back cover of the book lists the items featured on the cd:&lt;/p&gt;
+
+&lt;p&gt;A Test Engine, which they indicate works on both windows and linux.&lt;/p&gt;
+
+&lt;p&gt;Electronic Flashcards, which they indicate can run off your PC, Pocket PC, or Palm.&lt;/p&gt;
+
+&lt;p&gt;The Entire book in searchable and printable pdf, with no indication that it is useless in Linux.&lt;/p&gt;
+
+&lt;p&gt;No one would have any reason to believe a pdf file would be Windows-Only, and the fact that this is a Linux book makes this incredibly stupid. For this reason, even though it seems to be a decent book, I cannot recommend this, or any book published by Sybex, to anyone.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Airlink&#43; AWLL3025 on Ubuntu Linux 5.04</title>
+      <link>https://mrkeelan.github.io/2006/01/airlink&#43;-awll3025-on-ubuntu-linux-5.04/</link>
+      <pubDate>Thu, 19 Jan 2006 06:21:03 +0000</pubDate>
+      
+      <guid>https://mrkeelan.github.io/2006/01/airlink&#43;-awll3025-on-ubuntu-linux-5.04/</guid>
+      <description>&lt;p&gt;Note: I&amp;#8217;m writing this mostly from memory, will go back and check, and update this to make sure it&amp;#8217;s completely correct.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://www.airlinkplus.com/wireless/awll3025.htm&#34; title=&#34;Airlink+ AWLL3025&#34;&gt;Airlink+ AWLL3025&lt;/a&gt; is a cheap 802.11g USB adapter.&lt;/p&gt;
+
+&lt;p&gt;Open Source Linux drivers for this adapter, however they aren&amp;#8217;t usually included with any distro that I have seen, so you&amp;#8217;ll need to compile them from source.&lt;/p&gt;
+
+&lt;p&gt;It seems the source files are not hosted on sourceforge anymore.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://zd1211.ath.cx/&#34; title=&#34;http://zd1211.ath.cx/&#34;&gt;http://zd1211.ath.cx/&lt;/a&gt; is the homepage for the zd1211 driver project.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://zd1211.ath.cx/download&#34; title=&#34;http://zd1211.ath.cx/&#34;&gt;Here&lt;/a&gt; is a direct link to the files.&lt;/p&gt;
+
+&lt;p&gt;I got zd1211-driver-r38.tgz because i read that it worked with the kernel.&lt;/p&gt;
+
+&lt;p&gt;I like to save files for compiling into my home directory, under a sub directory src.&lt;/p&gt;
+
+&lt;p&gt;Go to whereever you saved it.&lt;/p&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  cd /home/matt/src/ &lt;br /&gt; tar &amp;#8211;gzip -xvf zd1211-driver-r38.tgz &lt;br /&gt; cd zd1211-driver-r38&lt;br /&gt; vi Makefile
+&lt;/div&gt;
+
+&lt;p&gt;edit the variables to match your linux source directory.&lt;/p&gt;
+
+&lt;p&gt;Get needed software from the Ubuntu Repository:&lt;/p&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  sudo apt-get install build-essential&lt;br /&gt; sudo apt-get install linux-headers&lt;br /&gt; sudo apt-get install linux-source-2.6.10-5-i386
+&lt;/div&gt;
+
+&lt;p&gt;Unpack the linux kernel source:&lt;/p&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  cd /usr/src&lt;br /&gt; sudo tar &amp;#8211;bzip2 -xvf linux-source-2.6.10-5-i386.gz
+&lt;/div&gt;
+
+&lt;p&gt;Create some necessary symbolic links:&lt;/p&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  ln -s /usr/src/linux-source-2.6.10-5-i386 /usr/src/linux&lt;br /&gt; ln -s /usr/src/linux/ /lib/modules/2.6.10-5-i386/build
+&lt;/div&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  cd /home/matt/src/zd1211-driver-r38&lt;br /&gt; make&lt;br /&gt; make install
+&lt;/div&gt;
+
+&lt;p&gt;now edit a few files&lt;/p&gt;
+
+&lt;p&gt;edit /etc/modprobe.d/aliases&lt;/p&gt;
+
+&lt;p&gt;add the line:&lt;/p&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  alias wlan0 zd1211
+&lt;/div&gt;
+
+&lt;p&gt;edit /etc/network/interfaces&lt;/p&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  iface wlan0 inet dhcp
+&lt;/div&gt;
+
+&lt;p&gt;Load the module:&lt;/p&gt;
+
+&lt;div class=&#34;code&#34;&gt;
+  modprobe -i zd1211&lt;br /&gt; lsmod | grep zd1211
+&lt;/div&gt;
+
+&lt;p&gt;You should see the module loaded.&lt;/p&gt;
+
+&lt;p&gt;At this point in connected to my neighbors &amp;#8216;linksys&amp;#8217; open network.&lt;/p&gt;
+
+&lt;p&gt;Tomorrow i will fix it to connect to my WEP protected network.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

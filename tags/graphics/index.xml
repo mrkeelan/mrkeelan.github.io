@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphics on Matthew Keelan</title>
+    <link>https://mrkeelan.github.io/tags/graphics/index.xml</link>
+    <description>Recent content in Graphics on Matthew Keelan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/tags/graphics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Batch thumbnail creation with ImageMagick</title>
+      <link>https://mrkeelan.github.io/2009/04/batch-thumbnail-creation-with-imagemagick/</link>
+      <pubDate>Thu, 09 Apr 2009 20:08:11 +0000</pubDate>
+      
+      <guid>https://mrkeelan.github.io/2009/04/batch-thumbnail-creation-with-imagemagick/</guid>
+      <description>&lt;p&gt;command to create thumbnails from all jpg files in a directory:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;find *.jpg -maxdepth 0 -print -exec convert &amp;quot;{}&amp;quot; -resize 120x160 &amp;quot;thumbnails/{}&amp;quot; \;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
