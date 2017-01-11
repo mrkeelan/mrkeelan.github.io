@@ -23,7 +23,7 @@
             &#39;elastic02.example.com:9200&#39;,  
             &#39;elastic03.example.com:9200&#39;  
         ]
-        index =&amp;gt; &amp;quot;logstash-%{+YYY.MM.dd}&amp;quot;  
+        index =&amp;gt; &amp;quot;logstash-%{+YYYY.MM.dd}&amp;quot;  
     }
 }
 &lt;/code&gt;&lt;/pre&gt;
